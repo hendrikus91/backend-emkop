@@ -4,4 +4,4 @@
 - $ php artisan db:seed --class=EmployeeSeeder
 - config/cors.php -> to setup cors
 - php artisan config:cache
-- php artisan serve -> localhost:8000 default
+- php -S localhost:8001 -t public -> php built in server
